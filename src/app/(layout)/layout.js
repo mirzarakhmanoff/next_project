@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Slider from "@/components/Slider";
 
 export const metadata = {
   title: "Create Next App",
@@ -9,6 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <div>
       <Header />
+
       {children}
     </div>
   );
