@@ -26,7 +26,6 @@ const Hero = () => {
             </p>
             <button className="w-[200px] h-[60px] bg-[#B88E2F] text-white rounded-[5px]">
               {" "}
-              {/* Added rounded for consistency */}
               BUY NOW
             </button>
           </div>
