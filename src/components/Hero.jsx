@@ -3,14 +3,14 @@ import heroImg from "@/assets/heroBg.png";
 
 const Hero = () => {
   return (
-    <div className=" relative  w-full ">
-      <div className=" ">
-        <div className="">
+    <div className="relative w-full">
+      <div>
+        <div>
           <img
             src={heroImg.src}
             alt="Hero background"
             className="w-full h-auto bg-cover"
-          />{" "}
+          />
         </div>
         <div className="absolute top-1/2 -translate-y-1/2 right-[220px] border p-[39px] bg-[#FFF3E3] rounded-[10px]">
           <div className="flex flex-col gap-4">
@@ -25,8 +25,7 @@ const Hero = () => {
               provident alias autem vel!
             </p>
             <button className="w-[200px] h-[60px] bg-[#B88E2F] text-white rounded-[5px]">
-              {" "}
-              BUY NOW
+              BUY NOw
             </button>
           </div>
         </div>
