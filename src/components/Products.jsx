@@ -8,7 +8,7 @@ async function getData(limit) {
   return res.json();
 }
 
-const Products = async ({ limit }) => {
+const Products = async () => {
   const data = await getData();
 
   return (

@@ -30,10 +30,10 @@ const Detail = async ({ params }) => {
             />
           </div>
 
-          <div className="w-full md:w-1/2 md:pl-6 flex flex-col justify-between  text-black">
+          <div className="w-full md:w-1/2 md:pl-6 flex flex-col justify-between text-black">
             <h2 className="text-2xl font-bold text-black">{title}</h2>
             <p className="text-lg font-semibold text-[#B88E2F]">Rs. {price}</p>
-            <p className="mt-2  text-black">{description}</p>
+            <p className="mt-2 text-black">{description}</p>
             <div className="flex items-center mt-4">
               <span className="text-yellow-500">{rating} ⭐</span>
               <span className="ml-2 text-gray-500">
@@ -61,7 +61,7 @@ const Detail = async ({ params }) => {
               </div>
             </div>
 
-            <div className="mt-4 flex items-center  text-black">
+            <div className="mt-4 flex items-center text-black">
               <button className="border px-2 py-1">-</button>
               <span className="mx-2">1</span>
               <button className="border px-2 py-1">+</button>
@@ -92,7 +92,7 @@ const Detail = async ({ params }) => {
           </div>
         </div>
 
-        <div className="mt-6  text-black">
+        <div className="mt-6 text-black">
           <h3 className="text-lg font-bold">Customer Reviews</h3>
           <ul className="mt-2">
             {reviews && reviews.length > 0 ? (
